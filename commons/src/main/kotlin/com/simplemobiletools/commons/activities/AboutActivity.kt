@@ -123,7 +123,7 @@ class AboutActivity : BaseSimpleActivity() {
 
     private fun setupMoreApps() {
         about_more_apps.setOnClickListener {
-            launchViewIntent("https://play.google.com/store/apps/dev?id=9070296388022589266")
+            launchViewIntent("https://play.google.com/store/apps/dev?id=6701037166265790716")
         }
         about_more_apps.setTextColor(linkColor)
     }
@@ -182,22 +182,11 @@ class AboutActivity : BaseSimpleActivity() {
     }
 
     private fun setupFacebook() {
-        about_facebook.setOnClickListener {
-            var link = "https://www.facebook.com/simplemobiletools"
-            try {
-                packageManager.getPackageInfo("com.facebook.katana", 0)
-                link = "fb://page/150270895341774"
-            } catch (ignored: Exception) {
-            }
-
-            launchViewIntent(link)
-        }
+        
     }
 
     private fun setupReddit() {
-        about_reddit.setOnClickListener {
-            launchViewIntent("https://www.reddit.com/r/SimpleMobileTools")
-        }
+        
     }
 
     private fun setupCopyright() {
