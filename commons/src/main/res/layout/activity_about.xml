@@ -97,23 +97,14 @@
             android:textColor="@color/color_primary"/>
 
         <com.simplemobiletools.commons.views.MyTextView
-            android:id="@+id/about_follow_us"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/about_license"
-            android:paddingTop="@dimen/activity_margin"
-            android:paddingBottom="@dimen/medium_margin"
-            android:text="@string/follow_us"/>
-
-        <com.simplemobiletools.commons.views.MyTextView
             android:id="@+id/about_copyright"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@+id/about_facebook"
+            android:layout_below="@+id/about_license"
             android:layout_alignParentBottom="true"
             android:gravity="center_horizontal|bottom"
             android:paddingTop="@dimen/activity_margin"
-            android:text="v1.0\nCopyright © Simple Mobile Tools 2017"/>
+            android:text="v1.0\nCopyright © Infinite World 2021"/>
 
     </RelativeLayout>
 </ScrollView>
